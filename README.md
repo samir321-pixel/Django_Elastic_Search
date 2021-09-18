@@ -8,7 +8,7 @@
 ## Technology Stack
 * Backend
   * Django 
-  * Elastic Searcg
+  * Elastic Search
   * Django Rest Framework
 
 
@@ -41,6 +41,16 @@ path :\elasticsearch-7.14.1-windows-x86_64\elasticsearch-7.14.1\bin
 elasticsearch.bat
 ```
 
+# Check Elastic Search On Server:
+```bash
+http://localhost:9200/
+```
+
+# Check Document Information On Server:
+```bash
+http://localhost:9200/elastic_demo
+```
+
 # create superuser
 ```bash
 python manage.py createsuperuser
@@ -51,7 +61,6 @@ Finally, run the development server:
 ```bash
 python manage.py runserver
 ```
-
 
 # Done!
 Finally, run index.html:
