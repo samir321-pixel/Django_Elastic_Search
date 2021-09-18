@@ -76,12 +76,14 @@ http://127.0.0.1:8000/Demo/Elastic_Demo/
 ```bash
 python manage.py search_index --rebuild
 ```
-# Screenshots
 
 ## 🛰️ Postman Collection
 ```bash
 https://www.getpostman.com/collections/2370b8a0963fcf4215e7
 ```
+
+
+# Screenshots
 
 ## 🌏 Browser Support
 
