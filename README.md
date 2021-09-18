@@ -51,11 +51,6 @@ http://localhost:9200/
 http://localhost:9200/elastic_demo
 ```
 
-# Import Postman Collection
-```bash
-http://localhost:9200/elastic_demo
-```
-
 # create superuser
 ```bash
 python manage.py createsuperuser
