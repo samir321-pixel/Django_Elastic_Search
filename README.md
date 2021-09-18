@@ -51,6 +51,11 @@ http://localhost:9200/
 http://localhost:9200/elastic_demo
 ```
 
+# Import Postman Collection
+```bash
+http://localhost:9200/elastic_demo
+```
+
 # create superuser
 ```bash
 python manage.py createsuperuser
@@ -62,12 +67,21 @@ Finally, run the development server:
 python manage.py runserver
 ```
 
-# Done!
-Finally, run index.html:
+# Import Data using API: 
+```bash
+http://127.0.0.1:8000/Demo/Elastic_Demo/
+```
 
-# Screenshots 
+# Rebuild Elastic Index
+```bash
+python manage.py search_index --rebuild
+```
+# Screenshots
 
-
+## 🛰️ Postman Collection
+```bash
+https://www.getpostman.com/collections/2370b8a0963fcf4215e7
+```
 
 ## 🌏 Browser Support
 
@@ -79,7 +93,9 @@ Finally, run index.html:
 ***
 ## Useful Resources
 - [Git and GitHub](https://www.digitalocean.com/community/tutorials/how-to-use-git-a-reference-guide)
-- [Getting Started – HTML](https://devdocs.io/html/)
+- [Elastic Search](https://www.elastic.co/)
+- [News API](https://newsapi.org/)
+- [Getting Started – Django Elastic Search](https://django-elasticsearch-dsl.readthedocs.io/en/latest/quickstart.html)
 
 ## Like This?? Star ⭐ this Repo.
 
