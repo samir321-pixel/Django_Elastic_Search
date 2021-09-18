@@ -41,10 +41,10 @@ class PublishDocumentView(DocumentViewSet):
         'content',
     )
     multi_match_search_fields = (
-       'title',
+        'title',
         'content',
     )
-    filter_fields  = {
+    filter_fields = {
         'title': 'title',
         'content': 'content'
     }
