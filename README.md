@@ -5,7 +5,7 @@
 * Elastic Search Integration With Django
 
 
-## Technology Stack
+## 💻 Technology Stack
 * Backend
   * Django 
   * Elastic Search
@@ -51,7 +51,7 @@ http://localhost:9200/
 http://localhost:9200/elastic_demo
 ```
 
-# create superuser
+# Create Superuser
 ```bash
 python manage.py createsuperuser
 ```
@@ -77,8 +77,11 @@ python manage.py search_index --rebuild
 https://www.getpostman.com/collections/2370b8a0963fcf4215e7
 ```
 
-
 # Screenshots
+![Capture1](https://user-images.githubusercontent.com/65664404/133885221-286c9adc-0fc6-4c6a-9d74-b555b5cca36e.PNG)
+![Capture2](https://user-images.githubusercontent.com/65664404/133885226-f26ac3c2-efc9-4a51-a33f-9d291c84b0d1.PNG)
+![Capture3](https://user-images.githubusercontent.com/65664404/133885230-c695835e-f7c2-4191-ad6e-636934bd76fc.PNG)
+![Capture4](https://user-images.githubusercontent.com/65664404/133885234-fcbeabdf-5342-425e-bf8b-46568947012c.PNG)
 
 ## 🌏 Browser Support
 
@@ -88,7 +91,7 @@ https://www.getpostman.com/collections/2370b8a0963fcf4215e7
 
 
 ***
-## Useful Resources
+## 📘 Useful Resources
 - [Git and GitHub](https://www.digitalocean.com/community/tutorials/how-to-use-git-a-reference-guide)
 - [Elastic Search](https://www.elastic.co/)
 - [News API](https://newsapi.org/)
