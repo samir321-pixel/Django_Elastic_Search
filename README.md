@@ -95,6 +95,7 @@ https://www.getpostman.com/collections/2370b8a0963fcf4215e7
 - [Git and GitHub](https://www.digitalocean.com/community/tutorials/how-to-use-git-a-reference-guide)
 - [Elastic Search](https://www.elastic.co/)
 - [News API](https://newsapi.org/)
+- [Postman](https://www.postman.com/)
 - [Getting Started – Django Elastic Search](https://django-elasticsearch-dsl.readthedocs.io/en/latest/quickstart.html)
 
 ## Like This?? Star ⭐ this Repo.
