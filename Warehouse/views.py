@@ -14,18 +14,6 @@ class Elastic_Demo_View(generics.ListAPIView):
     queryset = ElasticDemo.objects.all()
     serializer_class = Elastic_Demo_Serializer
 
-    def list(self, request, *args, **kwargs):
-        data = requests.get(
-            "https://newsapi.org/v2/everything?q=tesla&from=2021-08-18&sortBy=publishedAt&apiKey=80c34928d4ee48f98cae556930233e78")
-        payload = json.loads(data.text)
-        for data in payload.get('articles'):
-            ElasticDemo.objects.create(
-                title=data.get('title'),
-                content=data.get('description')
-            )
-        serializer = self.get_serializer(self.get_queryset(), many=True)
-        return Response(serializer.data)
-
 
 class PublishDocumentView(DocumentViewSet):
     document = ElasticDemoDocument
